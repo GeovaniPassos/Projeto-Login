@@ -39,9 +39,13 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+
+    transition: width 0.3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
+    display: block;
     background: var(--cor02) url(../images/login_image.jpg);
     background-size: cover;
     background-position: center ;
