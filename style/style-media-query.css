@@ -8,7 +8,7 @@
     --cor04: #7a3326;
 }
 
-
+/*Config para tela de tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to top, var(--cor04), var(--cor02));
@@ -16,6 +16,7 @@
 
     section#login {
         width: 80vw;
+        height: 285px;
     }
 
     section#login > div#imagem {
@@ -31,6 +32,7 @@
     }
 }
 
+/*Config para tela pc/tv*/
 @media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, var(--cor04), var(--cor02));
@@ -38,6 +40,7 @@
 
     section#login {
         width: 990px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -59,6 +62,7 @@
 
     div#formulario > p {
         font-size: 1.2em;
+        margin: 20px 5px;
     }
 
 }
